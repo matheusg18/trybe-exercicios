@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: red;
+}
+
+h1 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.lista-amarela li {
+  background-color: yellow;
+}
+
+.lista-amarela li:nth-of-type(even) {
+  color: green;
+}
+
+.lista-amarela li:nth-of-type(odd) {
+  text-transform: uppercase;
+}
+
+/* primeiros 3 elementos */
+ul.programming-languages li:nth-child(-n + 3) {
+  color: blue;
+}
+
+.pink-background {
+  background-color: pink;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.stackoverflow {
+  color: orange;
+}
+
+.w3schools {
+  color: green;
+}
+
+.mdn {
+  color: black;
+}
+
+.devdocs {
+  color: #d8d838;
+}
+
+.trybe {
+  color: green;
+}
