@@ -32,10 +32,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 4.2 - JavaScript - Array e loop For
 - [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [x] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - Projeto - Playground Functions
+- [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
-- [ ] 5.1 - JavaScript - DOM e seletores
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
+- [x] 5.1 - JavaScript - DOM e seletores
 - [ ] 5.2 - JavaScript - Trabalhando com elementos
 - [ ] 5.3 - JavaScript - Eventos
 - [ ] 5.4 - JavaScript - Web Storage
