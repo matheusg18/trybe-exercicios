@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p id="my-text">-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      function me2YearsFromNow() {
+        const text =
+          "Daqui a 2 anos imagino que eu esteja trabalhando com programação, ganhando bem e morando com amigos.";
+
+        document.getElementById("my-text").innerText = text;
+      }
+
+      function changeMainColor() {
+        const main = document.getElementsByClassName("main-content");
+        main[0].style.backgroundColor = "rgb(76,164,109)";
+      }
+
+      function changeSectionColor() {
+        const section = document.getElementsByTagName("section");
+        section[0].style.backgroundColor = "white";
+      }
+
+      function corrigeH1() {
+        const h1 = document.getElementsByTagName("h1");
+        h1[0].innerText = "Exercício 5.1 - JavaScript";
+      }
+
+      function upperP() {
+        const p = document.getElementsByTagName("p");
+
+        for (const item of p) {
+          item.innerText = item.innerText.toUpperCase();
+        }
+      }
+
+      function logP() {
+        const p = document.getElementsByTagName("p");
+
+        for (const item of p) {
+          console.log(item.innerText);
+        }
+      }
+
+      me2YearsFromNow();
+      changeMainColor();
+      changeSectionColor();
+      corrigeH1();
+      upperP();
+      logP();
+    </script>
+  </body>
+</html>
