@@ -21,7 +21,20 @@
     </main>
 
     <script>
-      
+      let ondeVoceEsta = document.getElementById("elementoOndeVoceEsta");
+      let ondeVoceEstaIrmao = document.createElement("div");
+      ondeVoceEsta.parentElement.appendChild(ondeVoceEstaIrmao);
+
+      let ondeVoceEstaFilho = document.createElement("div");
+      ondeVoceEsta.appendChild(ondeVoceEstaFilho);
+
+      let primeiroFilhoDoFilhoFilho = document.createElement("h2");
+      ondeVoceEsta.firstElementChild.appendChild(primeiroFilhoDoFilhoFilho);
+
+      let terceiroFilho =
+        primeiroFilhoDoFilhoFilho.parentElement.parentElement
+          .nextElementSibling;
+      console.log(terceiroFilho);
     </script>
   </body>
 </html>
