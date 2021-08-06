@@ -73,9 +73,18 @@ function holidaysHighlight() {
   }
 }
 
+function createFridayButton(buttonname) {
+  const fridayButton = document.createElement("button");
+  fridayButton.innerText = buttonname;
+  fridayButton.id = "btn-friday";
+
+  document.querySelector(".buttons-container").appendChild(fridayButton);
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
 document
   .getElementById("btn-holiday")
   .addEventListener("click", holidaysHighlight);
+createFridayButton("Sexta-feira");
