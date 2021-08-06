@@ -122,6 +122,14 @@ function addTask(taskName) {
   document.querySelector(".my-tasks").appendChild(taskSpan);
 }
 
+function colorAddedTask(color) {
+  const coloredDiv = document.createElement("div");
+  coloredDiv.className = "task";
+  coloredDiv.style.backgroundColor = color;
+
+  document.querySelector(".my-tasks").appendChild(coloredDiv);
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
@@ -133,3 +141,5 @@ const fridayButton = document.getElementById("btn-friday");
 holidayButton.addEventListener("click", holidaysHighlight);
 fridayButton.addEventListener("click", fridayHighlight);
 addEventListenerToDays();
+addTask("Terminar o exercicio");
+colorAddedTask("red");
