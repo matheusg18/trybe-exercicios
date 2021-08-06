@@ -28,11 +28,7 @@ secondLi.addEventListener("click", addTechClass);
 thirdLi.addEventListener("click", addTechClass);
 
 function addTechClass(event) {
-  let listItems = event.target.parentElement.children;
-
-  for (const item of listItems) {
-    item.removeAttribute("class");
-  }
+  document.querySelector(".tech").removeAttribute("class");
 
   event.target.className = "tech";
 }
