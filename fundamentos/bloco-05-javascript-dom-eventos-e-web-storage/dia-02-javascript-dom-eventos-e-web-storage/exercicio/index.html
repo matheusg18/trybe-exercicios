@@ -82,6 +82,31 @@
       let rightSection = document.createElement("section");
       rightSection.className = "right-content";
       main.appendChild(rightSection);
+
+      let image = document.createElement("img");
+      image.setAttribute("src", "https://picsum.photos/200");
+      image.className = "small-image";
+      leftSection.appendChild(image);
+
+      let ul = document.createElement("ul");
+      rightSection.appendChild(ul);
+      let numbers = [
+        "um",
+        "dois",
+        "três",
+        "quatro",
+        "cinco",
+        "seis",
+        "sete",
+        "oito",
+        "nove",
+        "dez",
+      ];
+      for (const num of numbers) {
+        li = document.createElement("li");
+        li.innerText = num;
+        ul.appendChild(li);
+      }
     </script>
   </body>
 </html>
