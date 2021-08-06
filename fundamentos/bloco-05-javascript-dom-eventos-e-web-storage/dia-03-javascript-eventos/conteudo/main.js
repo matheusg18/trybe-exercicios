@@ -28,6 +28,7 @@ secondLi.addEventListener("click", addTechClass);
 thirdLi.addEventListener("click", addTechClass);
 input.addEventListener("keyup", changeTechText);
 myWebpage.addEventListener("dblclick", redirectToPortfolio);
+myWebpage.addEventListener("mouseover", changeMyWebpageColor);
 
 function addTechClass(event) {
   document.querySelector(".tech").removeAttribute("class");
@@ -41,6 +42,10 @@ function changeTechText(event) {
 
 function redirectToPortfolio() {
   window.location.href = "https://matheusg18.github.io/";
+}
+
+function changeMyWebpageColor(event) {
+  event.target.style.color = "yellow";
 }
 
 function resetText(event) {
