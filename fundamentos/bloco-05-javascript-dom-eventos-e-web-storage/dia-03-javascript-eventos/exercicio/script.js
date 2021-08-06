@@ -56,6 +56,26 @@ function createHolidayButton(buttonName) {
   document.querySelector(".buttons-container").appendChild(holidayButton);
 }
 
+function holidaysHighlight() {
+  const initialColor = "rgb(238, 238, 238)";
+  const highlightColor = "rgb(255, 92, 247)";
+  const holidays = document.getElementsByClassName("holiday");
+  const isHighlighted = holidays[0].style.backgroundColor === highlightColor;
+
+  if (isHighlighted) {
+    for (const day of holidays) {
+      day.style.backgroundColor = initialColor;
+    }
+  } else {
+    for (const day of holidays) {
+      day.style.backgroundColor = highlightColor;
+    }
+  }
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
+document
+  .getElementById("btn-holiday")
+  .addEventListener("click", holidaysHighlight);
