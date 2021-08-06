@@ -27,8 +27,8 @@ function createDays() {
     29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
     20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
   ];
-  const friday = [4, 11, 18, 25];
-  const holiday = [24, 25, 31];
+  const fridays = [4, 11, 18, 25];
+  const holidays = [24, 25, 31];
   const daysList = document.getElementById("days");
 
   for (const day of dezDaysList) {
@@ -36,11 +36,11 @@ function createDays() {
     dayListItem.className = "day";
     dayListItem.innerText = day;
 
-    if (friday.includes(day)) {
+    if (fridays.includes(day)) {
       dayListItem.className += " friday";
     }
 
-    if (holiday.includes(day)) {
+    if (holidays.includes(day)) {
       dayListItem.className += " holiday";
     }
 
@@ -81,6 +81,23 @@ function createFridayButton(buttonname) {
   document.querySelector(".buttons-container").appendChild(fridayButton);
 }
 
+function fridayHighlight() {
+  const highlightText = "Sextou!!!";
+  const fridays = [4, 11, 18, 25];
+  const fridaysListItems = document.getElementsByClassName("friday");
+  const isHighlighted = fridaysListItems[0].innerText === highlightText;
+
+  if (isHighlighted) {
+    for (let i = 0; i < fridaysListItems.length; i += 1) {
+      fridaysListItems[i].innerText = fridays[i];
+    }
+  } else {
+    for (const fridayListItem of fridaysListItems) {
+      fridayListItem.innerText = highlightText;
+    }
+  }
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
@@ -88,3 +105,6 @@ document
   .getElementById("btn-holiday")
   .addEventListener("click", holidaysHighlight);
 createFridayButton("Sexta-feira");
+document
+  .getElementById("btn-friday")
+  .addEventListener("click", fridayHighlight);
