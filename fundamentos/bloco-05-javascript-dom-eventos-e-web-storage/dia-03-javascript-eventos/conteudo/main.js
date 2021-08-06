@@ -26,11 +26,16 @@ Segue abaixo um exemplo do uso de event.target:
 firstLi.addEventListener("click", addTechClass);
 secondLi.addEventListener("click", addTechClass);
 thirdLi.addEventListener("click", addTechClass);
+input.addEventListener("keyup", changeTechText);
 
 function addTechClass(event) {
   document.querySelector(".tech").removeAttribute("class");
 
   event.target.className = "tech";
+}
+
+function changeTechText(event) {
+  document.querySelector(".tech").innerText = event.target.value;
 }
 
 function resetText(event) {
