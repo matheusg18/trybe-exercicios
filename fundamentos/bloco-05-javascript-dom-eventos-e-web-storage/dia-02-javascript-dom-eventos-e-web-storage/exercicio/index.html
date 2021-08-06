@@ -61,6 +61,7 @@
 
       let h1 = document.createElement("h1");
       h1.innerText = "Exercício 5.2 - JavaScript DOM";
+      h1.className = "title";
       body.appendChild(h1);
 
       let main = document.createElement("main");
@@ -110,13 +111,25 @@
 
       let h31 = document.createElement("h3");
       h31.innerText = "Primeiro h3";
+      h31.className = "description";
       main.appendChild(h31);
       let h32 = document.createElement("h3");
       h32.innerText = "Segundo h3";
+      h32.className = "description";
       main.appendChild(h32);
       let h33 = document.createElement("h3");
       h33.innerText = "Terceiro h3";
+      h33.className = "description";
       main.appendChild(h33);
+
+      main.removeChild(leftSection);
+
+      rightSection.style.marginRight = "auto";
+
+      centerSection.parentElement.style.backgroundColor = "green";
+
+      ul.removeChild(ul.lastElementChild);
+      ul.removeChild(ul.lastElementChild);
     </script>
   </body>
 </html>
