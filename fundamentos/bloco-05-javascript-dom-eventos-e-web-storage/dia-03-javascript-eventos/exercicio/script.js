@@ -115,6 +115,13 @@ function addEventListenerToDays() {
   }
 }
 
+function addTask(taskName) {
+  const taskSpan = document.createElement("span");
+  taskSpan.innerText = taskName;
+
+  document.querySelector(".my-tasks").appendChild(taskSpan);
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
