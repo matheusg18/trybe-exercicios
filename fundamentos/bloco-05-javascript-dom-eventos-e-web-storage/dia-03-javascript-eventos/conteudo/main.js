@@ -27,6 +27,7 @@ firstLi.addEventListener("click", addTechClass);
 secondLi.addEventListener("click", addTechClass);
 thirdLi.addEventListener("click", addTechClass);
 input.addEventListener("keyup", changeTechText);
+myWebpage.addEventListener("dblclick", redirectToPortfolio);
 
 function addTechClass(event) {
   document.querySelector(".tech").removeAttribute("class");
@@ -36,6 +37,10 @@ function addTechClass(event) {
 
 function changeTechText(event) {
   document.querySelector(".tech").innerText = event.target.value;
+}
+
+function redirectToPortfolio() {
+  window.location.href = "https://matheusg18.github.io/";
 }
 
 function resetText(event) {
