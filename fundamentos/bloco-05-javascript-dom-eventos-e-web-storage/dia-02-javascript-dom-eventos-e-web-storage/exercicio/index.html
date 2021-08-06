@@ -57,7 +57,31 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      let body = document.getElementsByTagName("body")[0];
+
+      let h1 = document.createElement("h1");
+      h1.innerText = "Exercício 5.2 - JavaScript DOM";
+      body.appendChild(h1);
+
+      let main = document.createElement("main");
+      main.className = "main-content";
+      body.appendChild(main);
+
+      let centerSection = document.createElement("section");
+      centerSection.className = "center-content";
+      main.appendChild(centerSection);
+
+      let p = document.createElement("p");
+      p.innerText = "A Trybe é boa demais!";
+      centerSection.appendChild(p);
+
+      let leftSection = document.createElement("section");
+      leftSection.className = "left-content";
+      main.appendChild(leftSection);
+
+      let rightSection = document.createElement("section");
+      rightSection.className = "right-content";
+      main.appendChild(rightSection);
     </script>
   </body>
 </html>
