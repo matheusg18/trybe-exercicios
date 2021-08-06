@@ -98,13 +98,31 @@ function fridayHighlight() {
   }
 }
 
+function dayZoom(event) {
+  event.target.style.fontSize = "1.5em";
+}
+
+function dayBackToNormal(event) {
+  event.target.style.fontSize = null;
+}
+
+function addEventListenerToDays() {
+  const days = document.getElementsByClassName("day");
+
+  for (const day of days) {
+    day.addEventListener("mouseover", dayZoom);
+    day.addEventListener("mouseout", dayBackToNormal);
+  }
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
-document
-  .getElementById("btn-holiday")
-  .addEventListener("click", holidaysHighlight);
 createFridayButton("Sexta-feira");
-document
-  .getElementById("btn-friday")
-  .addEventListener("click", fridayHighlight);
+
+const holidayButton = document.getElementById("btn-holiday");
+const fridayButton = document.getElementById("btn-friday");
+
+holidayButton.addEventListener("click", holidaysHighlight);
+fridayButton.addEventListener("click", fridayHighlight);
+addEventListenerToDays();
