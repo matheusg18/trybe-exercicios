@@ -155,6 +155,27 @@ function taskHighlight(event) {
   }
 }
 
+function addAppointment(event) {
+  const inputField = document.getElementById("task-input");
+  const isInputFieldEmpty = inputField.value === "";
+  const wasTriggeredByInputField = event.target === inputField;
+
+  if (
+    (wasTriggeredByInputField && event.keyCode === 13) ||
+    !wasTriggeredByInputField
+  ) {
+    if (isInputFieldEmpty) {
+      alert("Campo de compromissos está vazio!");
+    } else {
+      const appointmentListItem = document.createElement("li");
+      appointmentListItem.innerText = inputField.value;
+      inputField.value = "";
+
+      document.querySelector(".task-list").appendChild(appointmentListItem);
+    }
+  }
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
@@ -172,3 +193,9 @@ colorAddedTask("red");
 const colorTaskDiv = document.querySelector(".task");
 
 colorTaskDiv.addEventListener("click", selectTask);
+
+const addAppointmentButton = document.getElementById("btn-add");
+const inputField = document.getElementById("task-input");
+
+addAppointmentButton.addEventListener("click", addAppointment);
+inputField.addEventListener("keyup", addAppointment);
