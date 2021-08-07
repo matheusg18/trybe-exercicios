@@ -112,6 +112,7 @@ function addEventListenerToDays() {
   for (const day of days) {
     day.addEventListener("mouseover", dayZoom);
     day.addEventListener("mouseout", dayBackToNormal);
+    day.addEventListener("click", taskHighlight);
   }
 }
 
@@ -138,6 +139,19 @@ function selectTask(event) {
     event.target.className = event.target.className.trim();
   } else {
     event.target.className += " selected";
+  }
+}
+
+function taskHighlight(event) {
+  const isColorSelected = document.querySelector(".selected") !== null;
+  const initialColor = "#777";
+  const highlightColor = document.querySelector(".task").style.backgroundColor;
+  const isHighlighted = event.target.style.color === highlightColor;
+
+  if (isColorSelected && !isHighlighted) {
+    event.target.style.color = highlightColor;
+  } else {
+    event.target.style.color = initialColor;
   }
 }
 
