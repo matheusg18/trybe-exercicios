@@ -130,6 +130,17 @@ function colorAddedTask(color) {
   document.querySelector(".my-tasks").appendChild(coloredDiv);
 }
 
+function selectTask(event) {
+  let isSelected = event.target.className.includes("selected");
+
+  if (isSelected) {
+    event.target.className = event.target.className.replace("selected", "");
+    event.target.className = event.target.className.trim();
+  } else {
+    event.target.className += " selected";
+  }
+}
+
 // Functions Calls
 createDays();
 createHolidayButton("Feriados");
@@ -143,3 +154,7 @@ fridayButton.addEventListener("click", fridayHighlight);
 addEventListenerToDays();
 addTask("Terminar o exercicio");
 colorAddedTask("red");
+
+const colorTaskDiv = document.querySelector(".task");
+
+colorTaskDiv.addEventListener("click", selectTask);
