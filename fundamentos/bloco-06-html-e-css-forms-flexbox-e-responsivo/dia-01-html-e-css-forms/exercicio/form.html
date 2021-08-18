@@ -9,36 +9,38 @@
   </head>
   <body>
     <form action="">
-      <fieldset>
+      <fieldset id="personal-info">
         <legend>Dados Pessoais</legend>
-        <label for="name">Nome:</label>
-        <br />
-        <input type="text" name="name" id="name" maxlength="40" required />
-        <br />
-        <label for="email">Email:</label>
-        <br />
-        <input type="email" name="email" id="email" maxlength="50" required />
-        <br />
-        <label for="cpf">CPF:</label>
-        <br />
-        <input type="text" name="cpf" id="cpf" maxlength="11" required />
-        <br />
-        <label for="adress">Endereço:</label>
-        <br />
-        <input type="text" name="adress" id="adress" maxlength="200" required />
-        <br />
-        <label for="city">Cidade:</label>
-        <br />
-        <input type="text" name="city" id="city" maxlength="28" required />
-        <br />
-        <label for="state">Estado:</label>
-        <br />
-        <select name="state" id="state" required></select>
-        <br />
-        <input type="radio" value="house" name="home" id="house" checked required />
-        <label for="house">Casa</label>
-        <input type="radio" value="apartment" name="home" id="apartment" required />
-        <label for="apartment">Apartamento</label>
+        <div class="input-field">
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" maxlength="40" required />
+        </div>
+        <div class="input-field">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" maxlength="50" required />
+        </div>
+        <div class="input-field">
+          <label for="cpf">CPF:</label>
+          <input type="text" name="cpf" id="cpf" maxlength="11" required />
+        </div>
+        <div class="input-field">
+          <label for="adress">Endereço:</label>
+          <input type="text" name="adress" id="adress" maxlength="200" required />
+        </div>
+        <div class="input-field">
+          <label for="city">Cidade:</label>
+          <input type="text" name="city" id="city" maxlength="28" required />
+        </div>
+        <div class="input-field">
+          <label for="state">Estado:</label>
+          <select name="state" id="state" required></select>
+        </div>
+        <div class="radio-field">
+          <input type="radio" value="house" name="home" id="house" checked required />
+          <label for="house">Casa</label>
+          <input type="radio" value="apartment" name="home" id="apartment" required />
+          <label for="apartment">Apartamento</label>
+        </div>
       </fieldset>
     </form>
     <script src="states.js"></script>
