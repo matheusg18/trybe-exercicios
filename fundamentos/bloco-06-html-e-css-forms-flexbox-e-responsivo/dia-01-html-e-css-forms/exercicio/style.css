@@ -1,11 +1,17 @@
+fieldset {
+  margin: 15px;
+}
+
 .input-field {
   display: block;
   padding: 5px 0;
+  width: fit-content;
 }
 
 .input-field * {
   display: block;
   padding: 1px 0;
+  width: fit-content;
 }
 
 .radio-field {
