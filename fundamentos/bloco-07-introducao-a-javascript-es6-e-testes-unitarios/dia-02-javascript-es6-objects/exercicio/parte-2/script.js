@@ -22,5 +22,11 @@ const addEntry = (object, key, value) => {
   object[key] = value;
 };
 
+const listKeys = (object) => {
+  console.log(Object.keys(object));
+};
+
 addEntry(lesson2, 'turno', 'noite');
-console.table(lesson2);
+console.log(lesson2);
+
+listKeys(lesson1);
