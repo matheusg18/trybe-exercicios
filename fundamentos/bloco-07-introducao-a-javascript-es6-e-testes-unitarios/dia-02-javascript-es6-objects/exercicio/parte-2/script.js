@@ -18,6 +18,12 @@ const lesson3 = {
   turno: 'noite',
 };
 
+const allLessons = {
+  lesson1: Object.assign({}, lesson1),
+  lesson2: Object.assign({}, lesson2),
+  lesson3: Object.assign({}, lesson3),
+};
+
 const addEntry = (object, key, value) => {
   object[key] = value;
 };
@@ -26,7 +32,18 @@ const listKeys = (object) => {
   console.log(Object.keys(object));
 };
 
+const listValues = (object) => {
+  console.log(Object.values(object));
+};
+
+const objectSize = (object) => Object.entries(object).length;
+
 addEntry(lesson2, 'turno', 'noite');
-console.log(lesson2);
+console.table(lesson2);
 
 listKeys(lesson1);
+listValues(lesson1);
+
+console.log(objectSize(lesson3));
+
+console.table(allLessons);
