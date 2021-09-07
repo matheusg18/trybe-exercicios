@@ -38,6 +38,16 @@ const listValues = (object) => {
 
 const objectSize = (object) => Object.entries(object).length;
 
+const getTotalStudents = () => {
+  let total = 0;
+  for (const lesson in allLessons) {
+    total += allLessons[lesson].numeroEstudantes;
+  }
+  return total;
+};
+
+const getValueByNumber = (object, position) => Object.values(object)[position];
+
 addEntry(lesson2, 'turno', 'noite');
 console.table(lesson2);
 
@@ -47,3 +57,7 @@ listValues(lesson1);
 console.log(objectSize(lesson3));
 
 console.table(allLessons);
+
+console.log(`${getTotalStudents()} estudantes no total`);
+
+console.log(getValueByNumber(lesson1, 0));
