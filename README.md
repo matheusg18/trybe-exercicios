@@ -53,20 +53,21 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 6.3 - CSS Flexbox - Parte 1
 - [ ] 6.4 - CSS Flexbox - Parte 2
 - [ ] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - Página inicial do Facebook
+- [x] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 - JavaScript ES6 - Objects
 - [ ] 7.3 - Testes unitários em JavaScript
-- [ ] 7.4 - Projeto - JavaScript Testes Unitários
+- [x] 7.4 - Projeto - JavaScript Testes Unitários
 
-##### Bloco 8: Higher Order Functions do JavaScript ES6
-- [ ] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.5 - Projeto - Zoo functions
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
+- [ ] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
+- [x] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
+- [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
+- [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [ ] 8.6 - Projeto - Zoo functions
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
