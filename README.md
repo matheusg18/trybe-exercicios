@@ -69,7 +69,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] 8.6 - Projeto - Zoo functions
 
-##### Bloco 9: JavaScript Assíncrono e Promises
+##### Bloco 9: [JavaScript Assíncrono e Promises](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-09-javascript-assincrono-e-promises)
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
