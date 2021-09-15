@@ -67,10 +67,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.6 - Projeto - Zoo functions
+- [x] 8.6 - Projeto - Zoo functions
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
+- [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
