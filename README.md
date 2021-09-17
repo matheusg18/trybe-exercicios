@@ -71,7 +71,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 9: [JavaScript Assíncrono e Promises](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-09-javascript-assincrono-e-promises)
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Promises
+- [x] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
 ##### Bloco 10: Testes automatizados com Jest
