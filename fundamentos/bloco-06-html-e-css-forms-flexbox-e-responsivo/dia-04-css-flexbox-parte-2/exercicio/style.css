@@ -16,11 +16,15 @@ body {
 
 .logo-container {
   display: flex;
+  flex-basis: 268px;
   justify-content: center;
+  order: -1;
 }
 
 .menu-container {
   display: flex;
+  flex: 1 500px;
+  align-self: center;
 }
 
 .menu-container ul {
