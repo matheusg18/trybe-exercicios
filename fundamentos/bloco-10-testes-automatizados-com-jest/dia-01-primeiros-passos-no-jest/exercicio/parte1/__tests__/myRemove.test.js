@@ -1,4 +1,4 @@
-const myRemove = require('./myRemove');
+const myRemove = require('../myRemove');
 
 describe('Testes de casos normais', () => {
   it('myRemove([1, 2, 3, 4], 3) deve retornar o array esperado', () => {

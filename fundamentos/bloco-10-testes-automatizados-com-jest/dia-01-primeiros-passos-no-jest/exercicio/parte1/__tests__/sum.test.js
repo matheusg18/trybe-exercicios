@@ -1,4 +1,4 @@
-const sum = require('./sum');
+const sum = require('../sum');
 
 describe('Testes com valores numéricos', () => {
   it('sum(4, 5) deve retornar 9', () => {
