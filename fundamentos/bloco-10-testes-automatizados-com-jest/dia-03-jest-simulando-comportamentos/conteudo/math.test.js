@@ -16,3 +16,13 @@ describe('Exercício 2', () => {
     expect(math.multiplicar()).toBe(10);
   });
 });
+
+describe('Exercício 3', () => {
+  it('Mock na função somar', () => {
+    math.somar = jest.fn().mockImplementation((a, b) => a + b);
+    math.somar(1, 2);
+    expect(math.somar).toBeCalled();
+    expect(math.somar(1, 2)).toBe(3);
+    expect(math.somar).toBeCalledTimes(2);
+  });
+});
