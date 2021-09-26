@@ -5,7 +5,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :rocket:
 
 ##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-e-bash)
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
@@ -77,8 +77,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 10: [Testes automatizados com Jest](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-10-testes-automatizados-com-jest)
 - [x] 10.1 - Primeiros passos no Jest
 - [x] 10.2 - Jest - Testes Assíncronos
-- [ ] 10.3 - Jest - Simulando comportamentos
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
+- [x] 10.3 - Jest - Simulando comportamentos
+- [x] 10.4 - Projeto - Jest Assíncrono e Mocking
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
