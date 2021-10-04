@@ -83,9 +83,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução à React
-- [ ] 11.1 - Introdução - Front-end
-- [ ] 11.1 - Introdução - React
-- [ ] 11.1 - 'Hello, world!' no React!
+- [x] 11.1 - Introdução - Front-end
+- [x] 11.1 - Introdução - React
+- [x] 11.1 - 'Hello, world!' no React!
 - [ ] 11.2 - Componentes React
 - [ ] 11.3 - Projeto - Movie Cards Library
 
