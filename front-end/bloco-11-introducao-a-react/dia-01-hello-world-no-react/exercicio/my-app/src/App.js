@@ -1,18 +1,15 @@
 import './App.css';
-
-const compromissos = ['Preencher o forms', 'Fazer os exercícios'];
-
-const Task = (value) => {
-  return (
-    <li>{value}</li>
-  );
-}
+import Content from './Content';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
-    <ol>
-      {compromissos.map((element) => Task(element))}
-    </ol>
+    <div>
+      <Header />
+      <Content />
+      <Footer />
+    </div>
   );
 }
 
