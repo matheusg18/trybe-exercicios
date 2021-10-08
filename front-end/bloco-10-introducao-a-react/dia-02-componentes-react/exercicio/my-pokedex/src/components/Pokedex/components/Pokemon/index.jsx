@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './style.css';
 
 export default class Pokemon extends Component {
   render() {
@@ -7,12 +8,14 @@ export default class Pokemon extends Component {
 
     return (
       <div className="pokemon">
+        <div className="Pokemon-info">
+          <p>{name}</p>
+          <p>{type}</p>
+          <p>
+            Average weight: {averageWeight.value} {averageWeight.measurementUnit}
+          </p>
+        </div>
         <img src={image} alt={name} />
-        <p>{name}</p>
-        <p>{type}</p>
-        <p>
-          Average weight: {averageWeight.value} {averageWeight.measurementUnit}
-        </p>
       </div>
     );
   }
