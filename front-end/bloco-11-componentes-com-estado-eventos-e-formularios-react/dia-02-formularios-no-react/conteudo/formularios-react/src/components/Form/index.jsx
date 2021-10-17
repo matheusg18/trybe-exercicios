@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import EmailInput from './EmailInput';
+import PasswordInput from './PasswordInput';
 import './style.css';
 
 export default class Form extends Component {
@@ -42,14 +44,8 @@ export default class Form extends Component {
           Sim ou não?
         </label>
         <fieldset>
-          <label>
-            Email input:
-            <input name="email" type="email" value={email} onChange={this.handleChange} />
-          </label>
-          <label>
-            Senha input:
-            <input name="senha" type="password" value={senha} onChange={this.handleChange} />
-          </label>
+          <EmailInput value={email} handleChange={this.handleChange} />
+          <PasswordInput value={senha} handleChange={this.handleChange} />
         </fieldset>
         <textarea
           name="textArea"
