@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import AdressInput from './components/AdressInput';
+import CpfInput from './components/CpfInput';
+import EmailInput from './components/EmailInput';
+import NameInput from './components/NameInput';
 
 export default class Forms extends Component {
   constructor(props) {
@@ -6,6 +10,9 @@ export default class Forms extends Component {
 
     this.state = {
       name: '',
+      email: '',
+      cpf: '',
+      adress: '',
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -15,26 +22,19 @@ export default class Forms extends Component {
     const { name } = target;
     let value = target.type === 'checkbox' ? target.checked : target.value;
 
-    if (name === 'name') value = value.toUpperCase();
-
     this.setState({ [name]: value });
   }
 
   render() {
-    const { name } = this.state;
+    const { name, email, cpf, adress } = this.state;
 
     return (
       <form>
         <fieldset>
-          <input
-            type="text"
-            name="name"
-            maxLength="40"
-            required
-            placeholder="Nome"
-            onChange={this.handleChange}
-            value={name}
-          />
+          <NameInput handleChange={this.handleChange} value={name} />
+          <EmailInput handleChange={this.handleChange} value={email} />
+          <CpfInput handleChange={this.handleChange} value={cpf} />
+          <AdressInput handleChange={this.handleChange} value={adress} />
         </fieldset>
         <button type="submit">Enviar</button>
       </form>
