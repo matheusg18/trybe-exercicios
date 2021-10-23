@@ -91,8 +91,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 - [x] 11.1 - Componentes com estado e eventos
-- [ ] 11.2 - Formulários no React
-- [ ] 11.3 - Projeto - Movie Cards Library Stateful
+- [x] 11.2 - Formulários no React
+- [x] 11.3 - Projeto - Movie Cards Library Stateful
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 - [ ] 13.1 - Ciclo de vida de componentes
