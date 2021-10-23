@@ -92,24 +92,24 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 11: [Componentes com Estado, Eventos e Formulários com React](https://github.com/matheusg18/trybe-exercicios/tree/main/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-react)
 - [x] 11.1 - Componentes com estado e eventos
 - [x] 11.2 - Formulários no React
-- [x] 11.3 - Projeto - Movie Cards Library Stateful
+- [x] 11.3 - Projeto - Tryunfo
 
-##### Bloco 13: Ciclo de Vida de Componentes e React Router
-- [ ] 13.1 - Ciclo de vida de componentes
+##### Bloco 12: Ciclo de Vida de Componentes e React Router
+- [x] 13.1 - Ciclo de vida de componentes
 - [ ] 13.2 - React Router
-- [ ] 13.3 - Projeto - Movie Cards Library CRUD
+- [ ] 13.3 - Projeto - TrybeTunes
 
-##### Bloco 14: Metodologias Ágeis
-- [ ] 14.1 - Metodologias Ágeis
+##### Bloco 13: Metodologias Ágeis
+- [x] 14.1 - Metodologias Ágeis
 - [ ] 14.2 - Projeto - Frontend Online Store
 
-##### Bloco 15: Testes automatizados com React Testing Library
+##### Bloco 14: Testes automatizados com React Testing Library
 - [ ] 15.1 - RTL - Primeiros passos
 - [ ] 15.2 - RTL - Mocks e Inputs
 - [ ] 15.3 - RTL - Testando React Router
 - [ ] 15.4 - Projeto - Testes em React
 
-##### Bloco 16: Gerenciamento de estado com Redux
+##### Bloco 15: Gerenciamento de estado com Redux
 - [ ] 16.1 - Introdução ao Redux - O estado global da aplicação
 - [ ] 16.2 - Usando o Redux no React
 - [ ] 16.3 - Usando o Redux no React - Prática
@@ -117,16 +117,16 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 16.5 - Testes síncronos com React-Redux
 - [ ] 16.6 - Projeto - Tabela com filtros de dados
 
-##### Bloco 17: Projeto Jogo de Trivia
+##### Bloco 16: Projeto Jogo de Trivia
 - [ ] 17.1 - Projeto - Jogo de Trivia
 
-##### Bloco 18: Context API e React Hooks
+##### Bloco 17: Context API e React Hooks
 - [ ] 18.1 - Context API do React
 - [ ] 18.2 - React Hooks - useState e useContext
 - [ ] 18.3 - React Hooks - useEffect e Hooks customizados
 - [ ] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
 
-##### Bloco 19: Projeto App de Receitas
+##### Bloco 18: Projeto App de Receitas
 - [ ] 19.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
