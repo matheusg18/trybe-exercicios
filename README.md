@@ -89,7 +89,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 10.2 - Componentes React
 - [x] 10.3 - Projeto - Movie Cards Library
 
-##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
+##### Bloco 11: [Componentes com Estado, Eventos e Formulários com React](https://github.com/matheusg18/trybe-exercicios/tree/main/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-react)
 - [x] 11.1 - Componentes com estado e eventos
 - [x] 11.2 - Formulários no React
 - [x] 11.3 - Projeto - Movie Cards Library Stateful
