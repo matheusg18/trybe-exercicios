@@ -48,11 +48,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1 - HTML & CSS - Forms
-- [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 - Introdução - CSS Flexbox
 - [x] 6.3 - CSS Flexbox - Parte 1
 - [x] 6.4 - CSS Flexbox - Parte 2
-- [ ] 6.5 - CSS Responsivo - Mobile First
+- [x] 6.5 - CSS Responsivo - Mobile First
 - [x] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/matheusg18/trybe-exercicios/tree/main/fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
@@ -96,12 +96,12 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 - [x] 13.1 - Ciclo de vida de componentes
-- [ ] 13.2 - React Router
-- [ ] 13.3 - Projeto - TrybeTunes
+- [x] 13.2 - React Router
+- [x] 13.3 - Projeto - TrybeTunes
 
 ##### Bloco 13: Metodologias Ágeis
 - [x] 14.1 - Metodologias Ágeis
-- [ ] 14.2 - Projeto - Frontend Online Store
+- [x] 14.2 - Projeto - Frontend Online Store
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 - [ ] 15.1 - RTL - Primeiros passos
