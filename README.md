@@ -104,10 +104,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 14.2 - Projeto - Frontend Online Store
 
 ##### Bloco 14: Testes automatizados com React Testing Library
-- [ ] 15.1 - RTL - Primeiros passos
-- [ ] 15.2 - RTL - Mocks e Inputs
-- [ ] 15.3 - RTL - Testando React Router
-- [ ] 15.4 - Projeto - Testes em React
+- [x] 15.1 - RTL - Primeiros passos
+- [x] 15.2 - RTL - Mocks e Inputs
+- [x] 15.3 - RTL - Testando React Router
+- [x] 15.4 - Projeto - Testes em React
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 - [ ] 16.1 - Introdução ao Redux - O estado global da aplicação
