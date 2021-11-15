@@ -109,7 +109,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 15.3 - RTL - Testando React Router
 - [x] 15.4 - Projeto - Testes em React
 
-##### Bloco 15: Gerenciamento de estado com Redux
+##### Bloco 15: [Gerenciamento de estado com Redux](https://github.com/matheusg18/trybe-exercicios/tree/main/front-end/bloco-15-gerenciamento-de-estado-com-redux)
 - [x] 16.1 - Introdução ao Redux - O estado global da aplicação
 - [ ] 16.2 - Usando o Redux no React
 - [ ] 16.3 - Usando o Redux no React - Prática
