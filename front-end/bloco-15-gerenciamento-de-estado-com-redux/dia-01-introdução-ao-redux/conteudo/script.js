@@ -28,6 +28,7 @@ const store = Redux.createStore(
 window.onload = () => {
   const buttonPrev = document.getElementById('previous');
   const buttonNext = document.getElementById('next');
+  const colorSpan = document.getElementById('value');
 
   buttonPrev.addEventListener('click', () => {
     store.dispatch({ type: PREVIOUS_COLOR });
@@ -35,5 +36,12 @@ window.onload = () => {
 
   buttonNext.addEventListener('click', () => {
     store.dispatch({ type: NEXT_COLOR });
+  });
+
+  store.subscribe(() => {
+    const state = store.getState();
+    const color = state.colors[state.index];
+    colorSpan.innerHTML = color;
+    colorSpan.style.backgroundColor = color;
   });
 };
