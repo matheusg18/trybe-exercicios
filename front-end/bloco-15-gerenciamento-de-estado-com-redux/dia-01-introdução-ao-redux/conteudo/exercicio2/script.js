@@ -48,3 +48,19 @@ const store = Redux.createStore(
   combinedReducers,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
+
+window.onload = () => {
+  const nome1 = document.getElementById('nome-1');
+  const sobrenome2 = document.getElementById('sobrenome-2');
+
+  setTimeout(() => {
+    store.dispatch({ type: CHANGE_NAME, payload: { newName: 'Claudio' } });
+    store.dispatch({ type: CHANGE_LAST_NAME, payload: { newLastName: 'Silva' } });
+  }, 2500);
+
+  store.subscribe(() => {
+    const state = store.getState();
+    nome1.innerText = state.reducer1.nome;
+    sobrenome2.innerText = state.reducer2.sobrenome;
+  });
+};
