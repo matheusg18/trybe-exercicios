@@ -1,10 +1,10 @@
 const NEXT_COLOR = 'NEXT_COLOR';
 const PREVIOUS_COLOR = 'PREVIOUS_COLOR';
 
-const reducer = (state = ESTADO_INICIAL) => {
-  const len = ESTADO_INICIAL.length;
+const reducer = (state = ESTADO_INICIAL, action) => {
+  const len = ESTADO_INICIAL.colors.length;
 
-  switch (state.type) {
+  switch (action.type) {
     case NEXT_COLOR:
       return {
         ...state,
@@ -24,3 +24,16 @@ const store = Redux.createStore(
   reducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
+
+window.onload = () => {
+  const buttonPrev = document.getElementById('previous');
+  const buttonNext = document.getElementById('next');
+
+  buttonPrev.addEventListener('click', () => {
+    store.dispatch({ type: PREVIOUS_COLOR });
+  });
+
+  buttonNext.addEventListener('click', () => {
+    store.dispatch({ type: NEXT_COLOR });
+  });
+};
