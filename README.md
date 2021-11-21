@@ -112,10 +112,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 15: [Gerenciamento de estado com Redux](https://github.com/matheusg18/trybe-exercicios/tree/main/front-end/bloco-15-gerenciamento-de-estado-com-redux)
 - [x] 16.1 - Introdução ao Redux - O estado global da aplicação
 - [x] 16.2 - Usando o Redux no React
-- [ ] 16.3 - Usando o Redux no React - Prática
-- [ ] 16.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 16.5 - Testes síncronos com React-Redux
-- [ ] 16.6 - Projeto - Tabela com filtros de dados
+- [x] 16.3 - Usando o Redux no React - Prática
+- [x] 16.4 - Usando o Redux no React - Actions Assíncronas
+- [ ] 16.5 - Testes em React-Redux
+- [ ] 16.6 - Projeto - Trybe Wallet
 
 ##### Bloco 16: Projeto Jogo de Trivia
 - [ ] 17.1 - Projeto - Jogo de Trivia
