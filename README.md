@@ -80,7 +80,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 10.3 - Jest - Simulando comportamentos
 - [x] 10.4 - Projeto - Jest Assíncrono e Mocking
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :rocket:
 
 ##### Bloco 10: [Introdução à React](https://github.com/matheusg18/trybe-exercicios/tree/main/front-end/bloco-10-introducao-a-react)
 - [x] 10.1 - Introdução - Front-end
@@ -127,12 +127,18 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 18: Projeto App de Receitas
-- [ ] 19.1 - Projeto - App de Receitas
+- [x] 19.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
+##### Bloco 19: Docker: Utilizando Containers
+- [x] 19.1 - Introdução - Back-end
+- [x] 19.1 - Utilizando Containers - Docker
+- [ ] 19.2 - Manipulação e Criação de Imagens no Docker
+- [ ] 19.3 - Orquestrando Containers com Docker Compose
+- [ ] 19.4 - Projeto - Docker Todo-List
+
 ##### Bloco 20: Introdução à SQL
-- [ ] 20.1 - Introdução - Back-end
 - [ ] 20.1 - Introdução - Bancos de dados relacionais
 - [ ] 20.1 - Banco de dados SQL
 - [ ] 20.2 - Encontrando dados em um banco de dados
@@ -140,78 +146,79 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 20.4 - Manipulando tabelas
 - [ ] 20.5 - Projeto - All For One
 
-##### Bloco 21: Funções SQL, Joins e Subqueries
+##### Bloco 21: Funções SQL, JOINs e Normalização
 - [ ] 21.1 - Funções mais usadas no SQL
-- [ ] 21.2 - Descomplicando JOINs e UNIONs
-- [ ] 21.3 - Stored Routines & Subqueries
-- [ ] 21.4 - Projeto - Vocabulary Booster
+- [ ] 21.2 - Descomplicando JOINs
+- [ ] 21.3 - Transformando ideias em um modelo de banco de dados
+- [ ] 21.4 - Aula ao vivo + Projeto - One For All
 
-##### Bloco 22: Normalização e Modelagem de Banco de Dados
-- [ ] 22.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 22.2 - Normalização, Formas Normais e Dumps
-- [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 22.4 - Projeto - One For All
+##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
+- [ ] 22.1 - Intro - NodeJS
+- [ ] 22.1 - NodeJS - Um motor JavaScript
+- [ ] 22.2 - NodeJS - Fluxo Assíncrono
+- [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [ ] 22.4 - Express: HTTP com Node.js
+- [ ] 22.5 - Express - Middlewares
+- [ ] 22.6 - Projeto - Talker manager
 
-##### Bloco 23: Introdução ao MongoDB
-- [ ] 23.1 - Introdução - NoSQL
-- [ ] 23.1 - MongoDB - Introdução
-- [ ] 23.2 - Filter Operators
-- [ ] 23.3 - Projeto - Data Flights
+##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+- [ ] 23.1 - Introdução - Arquitetura de Software
+- [ ] 23.1 - Arquitetura de Software - Camada de Model
+- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [ ] 23.3 - Arquitetura Web - Rest e Restful
+- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
+- [ ] 23.5 - Projeto - Store Manager
 
-##### Bloco 24: MongoDB: Updates Simples e Complexos
-- [ ] 24.1 - Updates Simples
-- [ ] 24.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 24.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 24.4 - Projeto - Commerce
+##### Bloco 24: Node.js: ORM e Autenticação
+- [ ] 24.1 - Introdução - Node.js: ORM e Autenticação
+- [ ] 24.1 - ORM - Interface da aplicação com o banco de dados
+- [ ] 24.2 - ORM - Associations
+- [ ] 24.3 - JWT - (JSON Web Token)
+- [ ] 24.4 - Testando APIs com Testes de Integração
+- [ ] 24.5 - Projeto - API de Blogs
 
-##### Bloco 25: MongoDB: Aggregation Framework
-- [ ] 25.1 - Aggregation Framework - Parte 1
-- [ ] 25.2 - Aggregation Framework - Parte 2
-- [ ] 25.3 - Projeto - Aggregations
+##### Bloco 25: Deployment
+- [ ] 25.1 - Introdução - Deploy
+- [ ] 25.1 - Infraestrutura - Deploy com Heroku
+- [ ] 25.2 - Deploy Docker & Heroku
+- [ ] 25.3 - Projeto - Stranger Things
 
-##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 26.1 - Intro - NodeJS
-- [ ] 26.1 - NodeJS - Introdução
-- [ ] 26.2 - NodeJS - Fluxo Assíncrono
-- [ ] 26.3 - Testes com NodeJS
-- [ ] 26.4 - Express: HTTP com Node.js
-- [ ] 26.5 - Praticando Express
-- [ ] 26.6 - Projeto - Talker manager
+##### Bloco 26: TypeScript
+- [ ] 26.1 - Introdução - TypeScript
+- [ ] 26.1 - Introdução ao TypeScript
+- [ ] 26.2 - Tipagem Estática e Generics
+- [ ] 26.3 - Express com TypeScript
+- [ ] 26.4 - Projeto - Trybe Smith
 
-##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 27.1 - Introdução - Arquitetura de Software
-- [ ] 27.1 - Arquitetura de Software - Camada de Model
-- [ ] 27.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 27.3 - Arquitetura Web - Rest e Restful
-- [ ] 27.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 27.5 - Projeto - Store Manager
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
+- [ ] 27.1 - Introdução à Orientação a Objetos
+- [ ] 27.2 - Herança e Interfaces
+- [ ] 27.3 - Polimorfismo
+- [ ] 27.4 - SOLID - Introdução
+- [ ] 27.5 - SOLID - Continuação
+- [ ] 27.6 - Projeto - Trybers and Dragons
 
-##### Bloco 28: Autenticação e Upload de Arquivos
-- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 28.2 - NodeJS - Upload de arquivos com Multer
-- [ ] 28.3 - NodeJS - Testando APIs com Testes de Integração
-- [ ] 28.4 - Projeto - Cookmaster
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
+- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
 
-##### Bloco 29: Deployment
-- [ ] 29.1 - Introdução - Deploy
-- [ ] 29.1 - Infraestrutura - Deploy com Heroku
-- [ ] 29.2 - Deploy - Gerenciadores de Processos
-- [ ] 29.3 - Projeto - Stranger Things
+##### Bloco 29: Introdução ao MongoDB
+- [ ] 29.1 - Introdução - NoSQL
+- [ ] 29.1 - MongoDB - Introdução
+- [ ] 29.2 - Filter Operators
+- [ ] 29.3 - Projeto - Data Flights
 
-##### Bloco 30: Arquitetura: SOLID e ORM
-- [ ] 30.1 - Arquitetura - Princípios SOLID
-- [ ] 30.2 - ORM - Interface da aplicação com o banco de dados
-- [ ] 30.3 - ORM - Associations
-- [ ] 30.4 - Boas práticas na escrita de testes
-- [ ] 30.5 - Projeto - API de Blogs
+##### Bloco 30: MongoDB: Updates Simples e Complexos
+- [ ] 30.1 - Updates Simples
+- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
+- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
+- [ ] 30.4 - Projeto - Commerce
 
-##### Bloco 31: Sockets
-- [ ] 31.1 - Sockets - TCP/UDP & NET
-- [ ] 31.2 - Sockets - Socket.io
-- [ ] 31.3 - Projeto - Webchat
+##### Bloco 31: MasterClass - VPS, CI/CD
+- [ ] 31.1 - Dia 1
+- [ ] 31.2 - Dia 2
 
-##### Bloco 32: Projeto Trybeer II
-- [ ] 32.1 - Projeto - Trybeer v2
+##### Bloco 32: Projeto - App de Delivery
+- [ ] 32.1 - Projeto - App de Delivery
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
