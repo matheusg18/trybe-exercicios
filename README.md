@@ -131,11 +131,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Docker: Utilizando Containers
+##### Bloco 19: [Docker: Utilizando Containers](https://github.com/matheusg18/trybe-exercicios/tree/main/back-end/bloco-19-docker-utilizando-containers)
 - [x] 19.1 - Introdução - Back-end
 - [x] 19.1 - Utilizando Containers - Docker
 - [x] 19.2 - Manipulação e Criação de Imagens no Docker
-- [ ] 19.3 - Orquestrando Containers com Docker Compose
+- [x] 19.3 - Orquestrando Containers com Docker Compose
 - [ ] 19.4 - Projeto - Docker Todo-List
 
 ##### Bloco 20: Introdução à SQL
