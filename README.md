@@ -131,7 +131,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: [Docker: Utilizando Containers](https://github.com/matheusg18/trybe-exercicios/tree/main/back-end/bloco-19-docker-utilizando-containers)
+##### Bloco 19: [Docker: Utilizando Containers](./back-end/bloco-19-docker-utilizando-containers)
 - [x] 19.1 - Introdução - Back-end
 - [x] 19.1 - Utilizando Containers - Docker
 - [x] 19.2 - Manipulação e Criação de Imagens no Docker
@@ -146,13 +146,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 20.4 - Manipulando tabelas
 - [x] 20.5 - Projeto - All For One
 
-##### Bloco 21: Funções SQL, JOINs e Normalização
+##### Bloco 21: [Funções SQL, JOINs e Normalização](./back-end/bloco-21-funcoes-sql-joins-e-normalizacao)
 - [x] 21.1 - Funções mais usadas no SQL
 - [x] 21.2 - Descomplicando JOINs
 - [x] 21.3 - Transformando ideias em um modelo de banco de dados
 - [x] 21.4 - Aula ao vivo + Projeto - One For All
 
-##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
+##### Bloco 22: [Introdução ao desenvolvimento Web com NodeJS](./back-end/bloco-22-introducao-ao-desenvolvimento-web-com-node-js)
 - [x] 22.1 - Intro - NodeJS
 - [x] 22.1 - NodeJS - Um motor JavaScript
 - [x] 22.2 - NodeJS - Fluxo Assíncrono
