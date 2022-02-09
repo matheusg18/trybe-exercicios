@@ -153,9 +153,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 21.4 - Aula ao vivo + Projeto - One For All
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 22.1 - Intro - NodeJS
-- [ ] 22.1 - NodeJS - Um motor JavaScript
-- [ ] 22.2 - NodeJS - Fluxo Assíncrono
+- [x] 22.1 - Intro - NodeJS
+- [x] 22.1 - NodeJS - Um motor JavaScript
+- [x] 22.2 - NodeJS - Fluxo Assíncrono
 - [ ] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
 - [ ] 22.4 - Express: HTTP com Node.js
 - [ ] 22.5 - Express - Middlewares
