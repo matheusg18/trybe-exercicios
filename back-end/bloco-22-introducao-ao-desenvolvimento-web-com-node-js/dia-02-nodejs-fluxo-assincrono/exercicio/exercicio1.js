@@ -15,6 +15,4 @@ const count = (a, b, c) =>
     resolve(result);
   });
 
-count(1, 2, 50)
-  .then((result) => console.log(result))
-  .catch((err) => console.error(err.message));
+module.exports = count;
