@@ -2,12 +2,29 @@ const SIMPSONS_PATH = './simpsons.json';
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs/promises');
+const crypto = require('crypto');
+
+const TOKEN_LIST = [];
+
+function generateToken() {
+  return crypto.randomBytes(8).toString('hex');
+}
 
 const app = express();
 
 app.use(bodyParser.json());
 
-app.get('/simpsons', async (_req, res) => {
+const auth = (req, res, next) => {
+  const { authorization = '' } = req.headers;
+
+  if (authorization.length === 16 && TOKEN_LIST.includes(authorization)) {
+    next();
+    return;
+  }
+  res.status(401).json({ message: 'Token inválido!' });
+};
+
+app.get('/simpsons', auth, async (_req, res) => {
   try {
     const simpsonsRaw = await fs.readFile(SIMPSONS_PATH);
     const simpsons = JSON.parse(simpsonsRaw);
@@ -18,7 +35,7 @@ app.get('/simpsons', async (_req, res) => {
   }
 });
 
-app.get('/simpsons/:id', async (req, res) => {
+app.get('/simpsons/:id', auth, async (req, res) => {
   const { id } = req.params;
 
   try {
@@ -36,7 +53,7 @@ app.get('/simpsons/:id', async (req, res) => {
   }
 });
 
-app.post('/simpsons', async (req, res) => {
+app.post('/simpsons', auth, async (req, res) => {
   const { id, name } = req.body;
 
   try {
@@ -53,6 +70,17 @@ app.post('/simpsons', async (req, res) => {
   } catch (_err) {
     res.status(500).end();
   }
+});
+
+app.post('/signup', (req, res) => {
+  const { email, password, firstName, phone } = req.body;
+
+  if ([email, password, firstName, phone].some((field) => !field)) {
+    return res.status(401).json({ message: 'missing fields' });
+  }
+
+  TOKEN_LIST.push(generateToken());
+  return res.status(200).json({ token: TOKEN_LIST[TOKEN_LIST.length - 1] });
 });
 
 app.listen(3001, () => {
