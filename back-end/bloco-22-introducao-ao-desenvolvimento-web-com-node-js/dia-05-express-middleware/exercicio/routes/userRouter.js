@@ -9,7 +9,7 @@ const crypto = require('crypto');
 const userRouter = express.Router();
 const INVALID_DATA_RESPONSE = { message: 'invalid data' };
 const USERS_FILE_PATH = path.resolve(__dirname, '../data/users.json');
-const tokens = [];
+global.tokens = [];
 
 const verifyUsername = (req, res, next) => {
   const { username } = req.body;
@@ -80,7 +80,7 @@ userRouter.post(
 
     if (users.find((user) => user.email === email && user.password === password)) {
       const newToken = generateToken();
-      tokens.push(newToken);
+      global.tokens.push(newToken);
       return res.status(200).json({ token: newToken });
     }
 
