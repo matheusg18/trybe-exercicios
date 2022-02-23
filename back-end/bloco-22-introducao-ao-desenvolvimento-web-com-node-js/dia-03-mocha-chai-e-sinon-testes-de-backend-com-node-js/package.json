@@ -1,0 +1,17 @@
+{
+  "name": "dia-03-mocha-chai-e-sinon-testes-de-backend-com-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha __tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "sinon": "^13.0.1"
+  }
+}
