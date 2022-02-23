@@ -25,4 +25,12 @@ describe('getNumberSign', () => {
       expect(sign).to.be.equals('neutro');
     });
   });
+
+  describe('Quando o parâmetro não é do tipo "number"', () => {
+    it('retorna "o valor deve ser um número"', () => {
+      const sign = getNumberSign('2');
+
+      expect(sign).to.be.equals('o valor deve ser um número');
+    });
+  });
 });
