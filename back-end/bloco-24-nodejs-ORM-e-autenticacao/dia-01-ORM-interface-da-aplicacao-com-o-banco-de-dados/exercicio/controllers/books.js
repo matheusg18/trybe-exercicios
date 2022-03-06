@@ -1,7 +1,12 @@
 const { Book } = require('../models');
 
-const getAll = async (_req, res) => {
+const getAll = async (req, res) => {
+  const { author } = req.query;
   const books = await Book.findAll();
+
+  if (author) {
+    return res.status(200).json(books.filter(({ author: bookAuthor }) => bookAuthor === author));
+  }
 
   return res.status(200).json(books);
 };
