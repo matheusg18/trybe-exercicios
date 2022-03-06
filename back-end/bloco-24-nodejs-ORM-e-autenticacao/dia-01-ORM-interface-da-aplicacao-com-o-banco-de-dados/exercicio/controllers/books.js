@@ -2,7 +2,12 @@ const { Book } = require('../models');
 
 const getAll = async (req, res) => {
   const { author } = req.query;
-  const books = await Book.findAll();
+  const books = await Book.findAll({
+    order: [
+      ['title', 'ASC'],
+      ['createdAt', 'ASC'],
+    ],
+  });
 
   if (author) {
     return res.status(200).json(books.filter(({ author: bookAuthor }) => bookAuthor === author));
