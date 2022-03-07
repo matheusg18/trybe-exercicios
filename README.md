@@ -170,8 +170,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 23.5 - Projeto - Store Manager
 
 ##### Bloco 24: Node.js: ORM e Autenticação
-- [ ] 24.1 - Introdução - Node.js: ORM e Autenticação
-- [ ] 24.1 - ORM - Interface da aplicação com o banco de dados
+- [x] 24.1 - Introdução - Node.js: ORM e Autenticação
+- [x] 24.1 - ORM - Interface da aplicação com o banco de dados
 - [ ] 24.2 - ORM - Associations
 - [ ] 24.3 - JWT - (JSON Web Token)
 - [ ] 24.4 - Testando APIs com Testes de Integração
