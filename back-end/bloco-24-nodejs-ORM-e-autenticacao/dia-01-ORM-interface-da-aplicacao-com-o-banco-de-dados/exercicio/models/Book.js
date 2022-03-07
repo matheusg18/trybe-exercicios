@@ -6,9 +6,6 @@ const Book = (sequelize, DataTypes) =>
       author: DataTypes.STRING,
       pageQuantity: DataTypes.INTEGER,
     },
-    {
-      updatedAt: false,
-    }
   );
 
 module.exports = Book;
