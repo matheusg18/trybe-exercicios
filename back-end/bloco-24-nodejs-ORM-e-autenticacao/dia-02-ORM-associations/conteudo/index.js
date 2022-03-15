@@ -2,6 +2,8 @@ const express = require('express');
 const { Address, Book, Employee, User } = require('./models');
 const app = express();
 
+app.use(express.json());
+
 app.get('/employees', async (_req, res) => {
   try {
     const employees = await Employee.findAll({
@@ -45,6 +47,21 @@ app.get('/usersbooks/:id', async (req, res) => {
     if (!user) return res.status(404).json({ message: 'Usuário não encontrado' });
 
     return res.status(200).json(user);
+  } catch (e) {
+    console.log(e.message);
+    res.status(500).json({ message: 'Algo deu errado' });
+  }
+});
+
+app.post('/employees', async (req, res) => {
+  try {
+    const { firstName, lastName, age, city, street, number } = req.body;
+
+    const employee = await Employee.create({ firstName, lastName, age });
+
+    await Address.create({ city, street, number, employeeId: employee.id });
+
+    return res.status(201).json({ message: 'Cadastrado com sucesso' });
   } catch (e) {
     console.log(e.message);
     res.status(500).json({ message: 'Algo deu errado' });
