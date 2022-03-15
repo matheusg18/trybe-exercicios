@@ -172,10 +172,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 24: Node.js: ORM e Autenticação
 - [x] 24.1 - Introdução - Node.js: ORM e Autenticação
 - [x] 24.1 - ORM - Interface da aplicação com o banco de dados
-- [ ] 24.2 - ORM - Associations
-- [ ] 24.3 - JWT - (JSON Web Token)
-- [ ] 24.4 - Testando APIs com Testes de Integração
-- [ ] 24.5 - Projeto - API de Blogs
+- [x] 24.2 - ORM - Associations
+- [x] 24.3 - JWT - (JSON Web Token)
+- [x] 24.4 - Testando APIs com Testes de Integração
+- [x] 24.5 - Projeto - API de Blogs
 
 ##### Bloco 25: Deployment
 - [ ] 25.1 - Introdução - Deploy
