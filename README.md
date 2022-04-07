@@ -161,7 +161,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 22.5 - Express - Middlewares
 - [x] 22.6 - Projeto - Talker manager
 
-##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+##### Bloco 23: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](./back-end/bloco-23-nodejs-camada-de-servico-e-arquitetura-rest-e-restful)
 - [x] 23.1 - Introdução - Arquitetura de Software
 - [x] 23.1 - Arquitetura de Software - Camada de Model
 - [x] 23.2 - Arquitetura de Software - Camada de Controller e Service
@@ -169,7 +169,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 23.4 - Arquitetura de Software - Testando as Camadas
 - [x] 23.5 - Projeto - Store Manager
 
-##### Bloco 24: Node.js: ORM e Autenticação
+##### Bloco 24: [Node.js: ORM e Autenticação](./back-end/bloco-24-nodejs-ORM-e-autenticacao)
 - [x] 24.1 - Introdução - Node.js: ORM e Autenticação
 - [x] 24.1 - ORM - Interface da aplicação com o banco de dados
 - [x] 24.2 - ORM - Associations
@@ -183,7 +183,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 25.2 - Deploy Docker & Heroku
 - [x] 25.3 - Projeto - Stranger Things
 
-##### Bloco 26: TypeScript
+##### Bloco 26: [TypeScript](./back-end/bloco-26-typescript)
 - [x] 26.1 - Introdução - TypeScript
 - [x] 26.1 - Introdução ao TypeScript
 - [x] 26.2 - Tipagem Estática e Generics
