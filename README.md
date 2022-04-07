@@ -178,24 +178,24 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 24.5 - Projeto - API de Blogs
 
 ##### Bloco 25: Deployment
-- [ ] 25.1 - Introdução - Deploy
-- [ ] 25.1 - Infraestrutura - Deploy com Heroku
-- [ ] 25.2 - Deploy Docker & Heroku
-- [ ] 25.3 - Projeto - Stranger Things
+- [x] 25.1 - Introdução - Deploy
+- [x] 25.1 - Infraestrutura - Deploy com Heroku
+- [x] 25.2 - Deploy Docker & Heroku
+- [x] 25.3 - Projeto - Stranger Things
 
 ##### Bloco 26: TypeScript
-- [ ] 26.1 - Introdução - TypeScript
-- [ ] 26.1 - Introdução ao TypeScript
-- [ ] 26.2 - Tipagem Estática e Generics
-- [ ] 26.3 - Express com TypeScript
-- [ ] 26.4 - Projeto - Trybe Smith
+- [x] 26.1 - Introdução - TypeScript
+- [x] 26.1 - Introdução ao TypeScript
+- [x] 26.2 - Tipagem Estática e Generics
+- [x] 26.3 - Express com TypeScript
+- [x] 26.4 - Projeto - Trybe Smith
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
-- [ ] 27.1 - Introdução à Orientação a Objetos
-- [ ] 27.2 - Herança e Interfaces
-- [ ] 27.3 - Polimorfismo
-- [ ] 27.4 - SOLID - Introdução
-- [ ] 27.5 - SOLID - Continuação
+- [x] 27.1 - Introdução à Orientação a Objetos
+- [x] 27.2 - Herança e Interfaces
+- [x] 27.3 - Polimorfismo
+- [x] 27.4 - SOLID - Introdução e Princípios S, O e D
+- [ ] 27.5 - SOLID - Princípios L e I
 - [ ] 27.6 - Projeto - Trybers and Dragons
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
