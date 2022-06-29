@@ -195,30 +195,30 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 27.2 - Herança e Interfaces
 - [x] 27.3 - Polimorfismo
 - [x] 27.4 - SOLID - Introdução e Princípios S, O e D
-- [ ] 27.5 - SOLID - Princípios L e I
-- [ ] 27.6 - Projeto - Trybers and Dragons
+- [x] 27.5 - SOLID - Princípios L e I
+- [x] 27.6 - Projeto - Trybers and Dragons
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
-- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
+- [x] 28.1 - Projeto - TFC - Trybe Futebol Clube
 
 ##### Bloco 29: Introdução ao MongoDB
-- [ ] 29.1 - Introdução - NoSQL
-- [ ] 29.1 - MongoDB - Introdução
-- [ ] 29.2 - Filter Operators
-- [ ] 29.3 - Projeto - Data Flights
+- [x] 29.1 - Introdução - NoSQL
+- [x] 29.1 - MongoDB - Introdução
+- [x] 29.2 - Filter Operators
+- [x] 29.3 - Projeto - Data Flights
 
 ##### Bloco 30: MongoDB: Updates Simples e Complexos
-- [ ] 30.1 - Updates Simples
-- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 30.4 - Projeto - Commerce
+- [x] 30.1 - Updates Simples
+- [x] 30.2 - Updates Complexos - Arrays - Parte 1
+- [x] 30.3 - Updates Complexos - Arrays - Parte 2
+- [x] 30.4 - Projeto - Commerce
 
 ##### Bloco 31: MasterClass - VPS, CI/CD
-- [ ] 31.1 - Dia 1
-- [ ] 31.2 - Dia 2
+- [x] 31.1 - Dia 1
+- [x] 31.2 - Dia 2
 
 ##### Bloco 32: Projeto - App de Delivery
-- [ ] 32.1 - Projeto - App de Delivery
+- [x] 32.1 - Projeto - App de Delivery
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
